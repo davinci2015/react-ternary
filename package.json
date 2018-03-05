@@ -3,10 +3,10 @@
   "author": "Danijel Vincijanović",
   "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "webpack --watch --config ./webpack.config.js",
-    "build": "webpack --config ./webpack.config.js",
+    "start": "webpack --watch",
+    "build": "webpack",
     "prepublish": "npm run build",
     "test": "echo \"No test specified\" && exit 0"
   },
