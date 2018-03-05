@@ -28,5 +28,13 @@
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davinci2015/react-ternary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davinci2015/react-ternary/issues"
+  },
+  "homepage": "https://github.com/davinci2015/react-ternary#readme"
 }
