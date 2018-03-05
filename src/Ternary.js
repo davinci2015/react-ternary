@@ -13,7 +13,7 @@ class Ternary extends Component {
 
     componentWillMount() {
         if (!Array.isArray(this.props.children) || this.props.children.length !== 2) {
-            throw new Error('Invalid usage of Ternary component. It should have two childrens')
+            throw new Error('Invalid usage of Ternary component. It should have two children components')
         }
     }
 
